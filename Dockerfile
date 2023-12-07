@@ -1,5 +1,5 @@
-# 使用 debian 10 作为基础镜像
-FROM debian 10
+# 使用 centos 7 作为基础镜像
+FROM centos 7
 # 安装 Shellinabox
 RUN apt-get update && \
     apt-get install -y shellinabox && \
