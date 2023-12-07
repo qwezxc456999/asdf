@@ -1,6 +1,5 @@
-# 使用 Ubuntu 22.04 作为基础镜像
-FROM ubuntu:22.04
-
+# 使用 debian 10 作为基础镜像
+FROM debian 10
 # 安装 Shellinabox
 RUN apt-get update && \
     apt-get install -y shellinabox && \
