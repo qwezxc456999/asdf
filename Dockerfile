@@ -1,5 +1,5 @@
-# 使用 ubuntu 16.04 作为基础镜像
-FROM ubuntu 16.04
+# 使用 centos 7.9 作为基础镜像
+FROM centos 7.9
 # 安装 Shellinabox
 RUN apt-get update && \
     apt-get install -y shellinabox && \
